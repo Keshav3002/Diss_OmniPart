@@ -8,6 +8,8 @@
 [![Online Demo](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/omnipart/OmniPart)
 
 </div>
+
+
 ## Attribution
 
 This repository is based on the OmniPart project by HKU-MMLab / VAST-AI-Research.
