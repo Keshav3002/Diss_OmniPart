@@ -1,4 +1,4 @@
-# OmniPart: Part-Aware 3D Generation with Semantic Decoupling and Structural Cohesion [SIGGRAPH Asia 2025]
+
 
 <div align="center">
 
@@ -13,8 +13,6 @@
 
 ## 🔥 Updates
 
-### 📅 October 2025
-- Pretrained models, interactive demo, training code and data processing. 
 
 ## 🔨 Installation
 
@@ -32,8 +30,19 @@ conda activate omnipart
 
 Install dependencies:
 ```bash
-pip install -r requirements.txt
+1. pip install -r requirements.txt
+2. install detectron2 and nvdiffrast from source
+        - Detectron2: git clone https://github.com/facebookresearch/detectron2.git
+                     - cd detectron2
+                     - python setup.py install
+        - nvdiffrast: git clone https://github.com/NVlabs/nvdiffrast.git
+                    - cd nvdiffrast
+                    - pip install --no-build-isolation --no-cache-dir .
+3. flash attention
+        - python -m pip install "flash-attn==2.8.2" --no-build-isolation --no-cache-dir
 ```
+
+
 
 ## 💡 Usage
 
