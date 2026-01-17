@@ -8,7 +8,18 @@
 [![Online Demo](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/omnipart/OmniPart)
 
 </div>
-## 🔥 Updates
+## Attribution
+
+This repository is based on the OmniPart project by HKU-MMLab / VAST-AI-Research.
+
+Original repository:
+https://github.com/HKU-MMLab/OmniPart
+
+Paper:
+https://arxiv.org/abs/2507.06165
+
+All credit for the original method, models, and implementation goes to the original authors.
+
 
 
 ## 🔨 Installation
