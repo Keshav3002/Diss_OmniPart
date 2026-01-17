@@ -28,8 +28,8 @@ All credit for the original method, models, and implementation goes to the origi
 
 Clone the repo:
 ```bash
-git clone https://github.com/HKU-MMLab/OmniPart
-cd OmniPart
+git clone https://github.com/Keshav3002/Diss_OmniPart/
+cd Diss_OmniPart
 ```
 
 Create a conda environment (optional):
