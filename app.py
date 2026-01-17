@@ -181,5 +181,12 @@ if __name__ == "__main__":
 
     prepare_models(sam_ckpt_path, partfield_ckpt_path, bbox_gen_ckpt_path)
 
-    port = int(os.getenv("PORT", "8080"))
-    demo.launch(share=False, server_name="0.0.0.0", server_port=port)
+    port = int(os.getenv("PORT", "7860"))
+    demo.launch(share=True, server_name="0.0.0.0", server_port=port)
+    #port = int(os.getenv("PORT", "7860"))
+    #demo.launch(
+     #   share=False,
+      #  server_name="0.0.0.0",
+       # server_port=port,
+        #root_path=f"/proxy/{port}"
+    #)

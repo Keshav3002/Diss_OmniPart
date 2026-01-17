@@ -4,3 +4,34 @@ ckpt/
 .DS_Store
 tmp/
 debug_images/
+# Python
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+
+# Conda
+*.conda
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models / data
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.onnx
+*.npz
+*.npy
+*.h5
+*.pkl
+data/
+datasets/
+outputs/
+results/
+
+# Logs
+logs/
