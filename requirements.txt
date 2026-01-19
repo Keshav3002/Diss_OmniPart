@@ -41,10 +41,16 @@ hydra-core>=1.1
 tensorboard
 iopath==0.1.7
 psutil
+gradio
+spaces
+
 git+https://github.com/facebookresearch/segment-anything.git
 #git+https://github.com/facebookresearch/detectron2.git
---find-links https://data.pyg.org/whl/torch-2.8.0+cu128.html
+--find-links https://data.pyg.org/whl/torch-2.4.0+cu121.html
 torch-scatter
+
+#python -m pip install xformers==0.0.27.post2 --index-url https://download.pytorch.org/whl/cu121
+
 
 #https://github.com/Dao-AILab/flash-attention/releases/download/v2.7.0.post2/flash_attn-2.7.0.post2+cu12torch2.4cxx11abiFALSE-cp310-cp310-linux_x86_64.whl
 https://huggingface.co/spaces/JeffreyXiang/TRELLIS/resolve/main/wheels/diff_gaussian_rasterization-0.0.0-cp310-cp310-linux_x86_64.whl?download=true
