@@ -40,6 +40,7 @@ cloudpickle
 hydra-core>=1.1
 tensorboard
 iopath==0.1.7
+psutil
 git+https://github.com/facebookresearch/segment-anything.git
 #git+https://github.com/facebookresearch/detectron2.git
 --find-links https://data.pyg.org/whl/torch-2.8.0+cu128.html
