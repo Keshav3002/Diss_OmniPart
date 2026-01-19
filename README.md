@@ -45,9 +45,14 @@ Install dependencies:
         - Detectron2: git clone https://github.com/facebookresearch/detectron2.git
                      - cd detectron2
                      - python setup.py install
-        - nvdiffrast: git clone https://github.com/NVlabs/nvdiffrast.git
-                    - cd nvdiffrast
-                    - pip install --no-build-isolation --no-cache-dir .
+                check: python -c "import detectron2; print('detectron2 ok')"
+        - nvdiffrast: cd /tmp
+                     - rm -rf nvdiffrast
+                     - git clone https://github.com/NVlabs/nvdiffrast.git
+                     - cd nvdiffrast
+                     - pip install --no-build-isolation --no-cache-dir .
+                check: python -c "import nvdiffrast.torch as dr; print('nvdiffrast OK')"
+
 3. flash attention
         - python -m pip install "flash-attn==2.8.2" --no-build-isolation --no-cache-dir
 ```
