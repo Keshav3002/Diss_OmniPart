@@ -37,7 +37,7 @@ boto3
 fvcore
 black
 cloudpickle
-hydracore>=1.1
+hydra-core>=1.1
 tensorboard
 iopath==0.1.7
 git+https://github.com/facebookresearch/segment-anything.git
